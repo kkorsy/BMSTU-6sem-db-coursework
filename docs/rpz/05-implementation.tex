@@ -1,0 +1,143 @@
+\chapter{Технологический раздел}
+
+В данном разделе будут обоснован выбор средств реализации, представлены листинги создания таблиц и ограничений целостности базы данных, создания ролей, реализации хранимой процедуры и способа ее тестирования, а также будут приведены примеры работы программы.
+
+\section{Выбор системы управления базами данных}
+
+Существует большое количество реляционных СУБД, и самые популярные из них это~\cite{popular-subd} --- Oracle~\cite{oracle}, MySQL~\cite{mysql}, Microsoft SQL Server~\cite{mss}, PostgreSQL~\cite{postgres}.
+
+Для сравнения выбранных СУБД выделены следующие критерии:
+\begin{itemize}[label=---]
+    \item бесплатное распространение СУБД;
+    \item производительность (на основе источника~\cite{proizv});
+    \item наличие опыта работы с СУБД.
+\end{itemize}
+
+Результаты сравнения выбранных СУБД по заданным критериям пред-
+ставлены в таблице~\ref{tbl:subdCmp}.
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Сравнение выбранных СУБД}
+        \label{tbl:subdCmp}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            \multirow{2}{*}{СУБД} & \multicolumn{3}{c|}{Критерий} \\ \cline{2-4}
+                                    & \makecell{Является\\бесплатной} 
+                                    & \makecell{Производительность}
+                                    & \makecell{Наличие опыта\\работы с СУБД}
+            \\ \hline
+            Oracle &---&2&--- \\\hline
+            MySQL &+&3&--- \\\hline
+            Microsoft SQL Server &---&4&--- \\\hline
+            PostgreSQL &+&1&+ \\\hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+В качестве системы управления базами данных была выбрана PostgreSQL.
+Данная СУБД поддерживает все необходимые типы данных для реализации описанной выше базы данных, предоставляет возможность создания хранимых функций.
+Кроме того, PostgreSQL является свободным программным обеспечением (open source), доступна бесплатно и присутствует опыт работы с данной СУБД.
+
+
+\section{Средства реализации}
+
+Для написания серверной части приложения был выбран язык программирования Golang~\cite{golang}, так как он обладает всеми необходимыми инструментами для выполнения поставленных задач. 
+Golang предоставляет функционал для создания простых одностраничных серверов, а также инструменты для взаимодействия с базой данных, разработанной с использованием PostgreSQL.
+В частности были использованы такие пакеты как 
+<<gorilla/mux>>, реализующий маршрутизатор запросов, 
+<<gorilla/sessions>> для управления сессиями, 
+<<jmoiron/sqlx>> для работы с базой данных, 
+<<sirupsen/logrus>>, обеспечивающий логирование, 
+<<x/crypto/bcrypt>>, позволяющий хранить пароли в зашифрованном виде, 
+<<net/http>>, предоставляющий клиентскую и серверную реализации HTTP, 
+<<BurntSushi/toml>>, использующийся для декодирования TOML файлов.
+
+Для реализации клиентских веб-страниц выбран язык разметки HTML~\cite{html}.
+
+Для реализации хранимой процедуры использовалось процедурное расширение PL/pgSQL~\cite{plpgsql}.
+
+Для автоматизации развертывания и управления приложением использовался Docker~\cite{docker}.
+
+В качестве среды разработки использовался Visual Studio Code~\cite{vscode}.
+
+\section{Создание таблиц}
+
+В листингах~\ref{lst:1}~--~\ref{lst:11} представлены создание таблиц и ограничений целостности базы данных.
+
+
+\lstinputlisting[firstline=1, lastline=15, caption={Создание таблицы Serials}, label={lst:1}]{../../code/database/create_tables.sql}
+\lstinputlisting[firstline=16, lastline=24, caption={Создание таблицы Actors}, label={lst:2}]{../../code/database/create_tables.sql}
+\lstinputlisting[firstline=25, lastline=31, caption={Создание таблицы Producers}, label={lst:3}]{../../code/database/create_tables.sql}
+\lstinputlisting[firstline=32, lastline=42, caption={Создание таблицы Seasons}, label={lst:4}]{../../code/database/create_tables.sql}
+\lstinputlisting[firstline=43, lastline=53, caption={Создание таблицы Episodes}, label={lst:5}]{../../code/database/create_tables.sql}
+\lstinputlisting[firstline=54, lastline=66, caption={Создание таблицы Users}, label={lst:6}]{../../code/database/create_tables.sql}
+\lstinputlisting[firstline=67, lastline=73, caption={Создание таблицы Favourites}, label={lst:7}]{../../code/database/create_tables.sql}
+\lstinputlisting[firstline=74, lastline=83, caption={Создание таблицы Comments}, label={lst:8}]{../../code/database/create_tables.sql}
+\lstinputlisting[firstline=84, lastline=93, caption={Создание таблицы Serials\_Users}, label={lst:9}]{../../code/database/create_tables.sql}
+\lstinputlisting[firstline=94, lastline=102, caption={Создание таблицы Serials\_Actors}, label={lst:10}]{../../code/database/create_tables.sql}
+\lstinputlisting[firstline=103, lastline=111, caption={Создание таблицы Serials\_Favourites}, label={lst:11}]{../../code/database/create_tables.sql}
+
+\section{Создание ролей базы данных}
+
+В листингах~\ref{lst:12}~--~\ref{lst:14} представлены создание ролей базы данных.
+
+\lstinputlisting[firstline=1, lastline=8, caption={Создание роли guest}, label={lst:12}]{../../code/database/create_roles.sql}
+\lstinputlisting[firstline=9, lastline=19, caption={Создание роли regUser}, label={lst:13}]{../../code/database/create_roles.sql}
+\lstinputlisting[firstline=20, lastline=32, caption={Создание роли adminUser}, label={lst:14}]{../../code/database/create_roles.sql}
+
+\section{Реализация хранимой функции}
+
+В листинге~\ref{lst:15} представлена реализация хранимой функции, обеспечивающей поиск сериалов из избранного, которые можно посмотреть за выходные.
+
+\lstinputlisting[caption={Реализация хранимой функции, обеспечивающей поиск сериалов из избранного, которые можно посмотреть за выходные}, label={lst:15}]{../../code/database/get_weekend_serials.sql}
+
+Тестирование функции выполнялось по алгоритму, представленному на рисунке~\ref{img:testing}.
+
+\includeimage
+    {testing}
+    {f}
+    {H}
+    {0.9\textwidth}
+    {Алгоритм тестирования хранимой функции}
+
+Код программы представлен в листинге~\ref{lst:testpy}.
+
+\lstinputlisting[caption={Тестирование хранимой функции}, label={lst:testpy}]{../../code/database/testpy.py}
+
+
+\section{Примеры работы}
+
+На рисунках~\ref{img:demo1}~--~\ref{img:demo4} представлены примеры работы программы.
+
+\includeimage
+    {demo1}
+    {f}
+    {H}
+    {0.9\textwidth}
+    {Главная страница}
+
+\includeimage
+    {demo2}
+    {f}
+    {H}
+    {0.9\textwidth}
+    {Страница сериала: список серий}
+
+\includeimage
+    {demo3}
+    {f}
+    {H}
+    {0.9\textwidth}
+    {Страница кабинета администратора}
+
+\includeimage
+    {demo4}
+    {f}
+    {H}
+    {0.9\textwidth}
+    {Страница сравнения сериалов}
+
+\section*{Вывод}
+
+В данном разделе был обоснован выбор средств реализации, представлены листинги создания таблиц и ограничений целостности базы данных, создания ролей, реализации хранимой процедуры и способа ее тестирования, а также были приведены примеры работы программы.

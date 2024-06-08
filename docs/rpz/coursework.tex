@@ -1,0 +1,57 @@
+\documentclass{bmstu}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{threeparttable}
+\usepackage{pdfpages}
+
+\lstdefinestyle{myStyle}{   
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    keepspaces=true,                 
+    numbers=left,       
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    frame=single,
+    linewidth=0.9\textwidth,
+    xleftmargin=0.05\textwidth,
+}
+\lstset{style=myStyle}
+
+\bibliography{biblio}
+
+\begin{document}
+
+% \makecourseworktitle
+% {Информатика и системы управления}
+% {Программное обеспечение ЭВМ и информационные технологии}
+% {Разработка базы данных для хранения и обработки данных сайта, посвященного сериалам}
+% {Жаворонкова~А.~А./ИУ7-66Б}
+% {Кострицкий~А.~С.}
+% {}
+% {}
+% {}
+
+
+\includepdf{inc/img/cw-title}
+
+\include{01-referat}
+
+\setcounter{tocdepth}{1}
+\maketableofcontents
+
+\include{02-introduction}
+\include{03-analysis}
+\include{04-design}
+\include{05-implementation}
+\include{06-research}
+\include{07-conclusion}
+
+\makebibliography
+
+\include{08-appendix}
+
+\end{document}

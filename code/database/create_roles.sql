@@ -1,16 +1,31 @@
-create user "guest";
-create user "reg_user";
-create user "admin";
+create role guest with login password 'guest';
+grant select on table Serials to guest;
+grant select on table Seasons to guest;
+grant select on table Episodes to guest;
+grant select on table Actors to guest;
+grant select on table Producers to guest;
+grant insert on table Users to guest;
 
-alter role "admin" superuser;
+create role regUser with login password 'regUser';
+grant select on table Serials to regUser;
+grant select on table Seasons to regUser;
+grant select on table Episodes to regUser;
+grant select on table Actors to regUser;
+grant select on table Producers to regUser;
+grant select, insert, update on table Users to regUser;
+grant select, insert, update on table Comments to regUser;
+grant select, insert, update on table Favourites to regUser;
+grant select, insert on table Serials_Users to regUser;
 
-grant select on table Serials to "guest";
-
-grant select on table Serials to "reg_user";
-grant select on table Comments to "reg_user";
-grant insert on table Comments to "reg_user";
-grant delete on table Comments to "reg_user";
-grant alter on table Comments to "reg_user";
-grant select on table Favourites to "reg_user";
-grant insert on table Favourites to "reg_user";
-grant delete on table Favourites to "reg_user";
+create role adminUser with login password 'adminUser'; 
+grant select, insert, update on table Actors to adminUser;
+grant select, insert, update on table Comments to adminUser;
+grant select, insert, update on table Episodes to adminUser;
+grant select, insert, update on table Favourites to adminUser;
+grant select, insert, update on table Producers to adminUser;
+grant select, insert, update on table Seasons to adminUser;
+grant select, insert, update on table Serials to adminUser;
+grant select, insert, update on table Serials_Actors to adminUser;
+grant select, insert, update on table Serials_Favourites to adminUser;
+grant select, insert, update on table Serials_Users to adminUser;
+grant select, insert, update on table Users to adminUser;

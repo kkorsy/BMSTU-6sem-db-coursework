@@ -1,0 +1,510 @@
+[2024-05-25 20:44:14] [info] [main.go:24] Logger initialized
+[2024-05-25 20:44:17] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-05-25 20:44:17] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-05-25 20:44:17] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:17] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:17] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:17] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:17] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-05-25 20:44:17] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-05-25 20:44:17] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:17] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:17] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:17] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:17] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:17] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-05-25 20:44:22] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-05-25 20:44:23] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-05-25 20:44:23] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-05-25 20:44:23] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:23] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:23] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:23] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:23] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-05-25 20:44:23] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-05-25 20:44:23] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:23] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:23] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:23] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:23] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:23] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-05-25 20:44:31] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-05-25 20:44:31] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-05-25 20:44:31] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-05-25 20:44:31] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:31] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:31] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:31] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:31] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:31] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:31] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:31] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:44:31] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-05-25 20:44:31] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-05-25 20:44:31] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:31] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:31] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:31] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:31] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:44:31] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-05-25 20:45:16] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-05-25 20:45:16] [info] [producersCtrl.go:17] Getting all producers from the database
+[2024-05-25 20:45:18] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-05-25 20:45:21] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-05-25 20:45:21] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-05-25 20:45:21] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:45:21] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:45:21] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:45:21] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:45:21] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:45:21] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:45:21] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:45:21] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-05-25 20:45:21] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-05-25 20:45:21] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-05-25 20:45:21] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:45:21] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:45:21] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:45:21] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:45:21] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-05-25 20:45:21] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-05-25 20:45:29] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-05-25 21:27:51] [info] [integration_test.go:24] Logger initialized
+[2024-05-25 21:27:51] [info] [actorsCtrl.go:17] Getting all actors from the database
+[2024-05-25 21:28:33] [info] [integration_test.go:24] Logger initialized
+[2024-05-25 21:28:33] [info] [actorsCtrl.go:17] Getting all actors from the database
+[2024-05-25 21:28:33] [info] [integration_test.go:49] Logger initialized
+[2024-05-25 21:28:33] [info] [commentsCtrl.go:21] Getting comment by id from the database
+[2024-05-25 21:28:33] [info] [integration_test.go:74] Logger initialized
+[2024-05-25 21:28:34] [info] [serialsCtrl.go:26] Calculating duration of the serial
+[2024-05-25 21:28:34] [info] [integration_test.go:98] Logger initialized
+[2024-05-25 21:28:34] [info] [seasonsCtrl.go:33] Updating season in the database
+[2024-05-25 21:28:34] [info] [integration_test.go:122] Logger initialized
+[2024-05-25 21:28:34] [info] [episodesCtrl.go:37] Deleting episode from the database
+[2024-05-25 21:29:00] [info] [integration_test.go:74] Logger initialized
+[2024-05-25 21:29:00] [info] [serialsCtrl.go:26] Calculating duration of the serial
+[2024-05-25 21:29:53] [info] [integration_test.go:74] Logger initialized
+[2024-05-25 21:29:53] [info] [serialsCtrl.go:26] Calculating duration of the serial
+[2024-05-25 21:29:53] [info] [serialsCtrl.go:30] Creating serial in the database
+[2024-05-25 21:30:14] [info] [integration_test.go:74] Logger initialized
+[2024-05-25 21:30:14] [info] [serialsCtrl.go:26] Calculating duration of the serial
+[2024-05-25 21:30:14] [info] [serialsCtrl.go:30] Creating serial in the database
+[2024-05-25 21:30:46] [info] [integration_test.go:74] Logger initialized
+[2024-05-25 21:30:46] [info] [serialsCtrl.go:26] Calculating duration of the serial
+[2024-05-25 21:30:46] [info] [serialsCtrl.go:30] Creating serial in the database
+[2024-05-25 21:30:54] [info] [integration_test.go:24] Logger initialized
+[2024-05-25 21:30:54] [info] [actorsCtrl.go:17] Getting all actors from the database
+[2024-05-25 21:30:54] [info] [integration_test.go:49] Logger initialized
+[2024-05-25 21:30:54] [info] [commentsCtrl.go:21] Getting comment by id from the database
+[2024-05-25 21:30:54] [info] [integration_test.go:74] Logger initialized
+[2024-05-25 21:30:55] [info] [serialsCtrl.go:26] Calculating duration of the serial
+[2024-05-25 21:30:55] [info] [serialsCtrl.go:30] Creating serial in the database
+[2024-05-25 21:30:55] [info] [integration_test.go:110] Logger initialized
+[2024-05-25 21:30:55] [info] [seasonsCtrl.go:33] Updating season in the database
+[2024-05-25 21:30:55] [info] [integration_test.go:134] Logger initialized
+[2024-05-25 21:30:55] [info] [episodesCtrl.go:37] Deleting episode from the database
+[2024-05-25 21:31:18] [info] [integration_test.go:110] Logger initialized
+[2024-05-25 21:31:18] [info] [seasonsCtrl.go:33] Updating season in the database
+[2024-05-25 21:31:25] [info] [integration_test.go:134] Logger initialized
+[2024-05-25 21:31:25] [info] [episodesCtrl.go:37] Deleting episode from the database
+[2024-05-25 21:32:36] [info] [integration_test.go:24] Logger initialized
+[2024-05-25 21:32:36] [info] [actorsCtrl.go:17] Getting all actors from the database
+[2024-05-25 21:32:36] [info] [integration_test.go:49] Logger initialized
+[2024-05-25 21:32:36] [info] [commentsCtrl.go:21] Getting comment by id from the database
+[2024-05-25 21:32:36] [info] [integration_test.go:74] Logger initialized
+[2024-05-25 21:32:36] [info] [serialsCtrl.go:26] Calculating duration of the serial
+[2024-05-25 21:32:36] [info] [serialsCtrl.go:30] Creating serial in the database
+[2024-05-25 21:32:36] [info] [integration_test.go:110] Logger initialized
+[2024-05-25 21:32:36] [info] [seasonsCtrl.go:33] Updating season in the database
+[2024-05-25 21:32:36] [info] [integration_test.go:134] Logger initialized
+[2024-05-25 21:32:36] [info] [episodesCtrl.go:37] Deleting episode from the database
+[2024-06-06 17:28:51] [info] [main.go:24] Logger initialized
+[2024-06-06 17:29:05] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 17:29:41] [info] [usersCtrl.go:28] Checking user by login from the database
+[2024-06-06 17:29:41] [info] [usersRepo.go:111] Getting user by login from the database
+[2024-06-06 17:29:41] [info] [usersCtrl.go:31] Creating favourite in the database
+[2024-06-06 17:29:41] [info] [usersCtrl.go:36] Creating user in the database
+[2024-06-06 17:29:41] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:29:49] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 17:29:49] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 17:30:46] [info] [main.go:24] Logger initialized
+[2024-06-06 17:30:49] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 17:30:49] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 17:30:49] [info] [serialsCtrl.go:54] [] missing destination name get_weekend_serials in *[]*models.Serial
+[2024-06-06 17:32:52] [info] [main.go:24] Logger initialized
+[2024-06-06 17:32:55] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 17:32:55] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 17:32:55] [info] [serialsCtrl.go:54] [] missing destination name serial_id in *[]*models.Serial
+[2024-06-06 17:34:44] [info] [main.go:24] Logger initialized
+[2024-06-06 17:34:48] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 17:34:49] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 17:34:49] [info] [serialsCtrl.go:54] [] <nil>
+[2024-06-06 17:34:52] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:34:52] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 17:34:53] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:34:53] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 17:34:53] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:53] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:53] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:53] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:53] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:53] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:53] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 17:34:53] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 17:34:53] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:53] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:53] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:53] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:53] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:53] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 17:34:53] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:34:53] [info] [serialsUsersCtrl.go:33] Getting serials_users by user id and serial id from the database
+[2024-06-06 17:34:53] [info] [serialsUsersCtrl.go:37] Creating serials_users in the database
+[2024-06-06 17:34:55] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:34:55] [info] [favouritesCtrl.go:21] Getting favourite by id from the database
+[2024-06-06 17:34:55] [info] [serialsFavouritesCtrl.go:41] Checking serial in favourite
+[2024-06-06 17:34:55] [info] [logger.go:317] <nil> [] true
+[2024-06-06 17:34:55] [info] [serialsFavouritesCtrl.go:33] Creating serials_favourites in the database
+[2024-06-06 17:34:55] [info] [favouritesCtrl.go:25] Updating favourite in the database
+[2024-06-06 17:34:55] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:34:55] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 17:34:55] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:55] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:55] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:55] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:55] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:55] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:55] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 17:34:55] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 17:34:55] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:55] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:55] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:55] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:55] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:55] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 17:34:55] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:34:55] [info] [serialsUsersCtrl.go:33] Getting serials_users by user id and serial id from the database
+[2024-06-06 17:34:55] [info] [serialsUsersCtrl.go:41] Updating serials_users in the database
+[2024-06-06 17:34:56] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 17:34:57] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:34:57] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 17:34:57] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:57] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:57] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:57] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:57] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 17:34:57] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 17:34:57] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:57] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:57] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:57] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:57] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:57] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 17:34:57] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:34:57] [info] [serialsUsersCtrl.go:33] Getting serials_users by user id and serial id from the database
+[2024-06-06 17:34:57] [info] [serialsUsersCtrl.go:37] Creating serials_users in the database
+[2024-06-06 17:34:59] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:34:59] [info] [favouritesCtrl.go:21] Getting favourite by id from the database
+[2024-06-06 17:34:59] [info] [serialsFavouritesCtrl.go:41] Checking serial in favourite
+[2024-06-06 17:34:59] [info] [logger.go:317] <nil> [] true
+[2024-06-06 17:34:59] [info] [serialsFavouritesCtrl.go:33] Creating serials_favourites in the database
+[2024-06-06 17:34:59] [info] [favouritesCtrl.go:25] Updating favourite in the database
+[2024-06-06 17:34:59] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:34:59] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 17:34:59] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:59] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:59] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:59] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:34:59] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 17:34:59] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 17:34:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:34:59] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 17:34:59] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:34:59] [info] [serialsUsersCtrl.go:33] Getting serials_users by user id and serial id from the database
+[2024-06-06 17:34:59] [info] [serialsUsersCtrl.go:41] Updating serials_users in the database
+[2024-06-06 17:35:00] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 17:35:02] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:35:05] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 17:35:05] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:35:05] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:35:05] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 17:35:05] [info] [serialsCtrl.go:54] [] <nil>
+[2024-06-06 17:35:53] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 17:35:53] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:35:53] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:35:53] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 17:35:53] [info] [serialsCtrl.go:54] [] <nil>
+[2024-06-06 17:36:01] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:36:03] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 17:36:03] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:36:03] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:36:03] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 17:36:03] [info] [serialsCtrl.go:54] [] <nil>
+[2024-06-06 17:36:16] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:36:18] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 17:36:20] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:36:20] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 17:36:20] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:20] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:20] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:20] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:20] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:20] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:20] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:20] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:20] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 17:36:20] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 17:36:20] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:20] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:20] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:20] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:20] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:20] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 17:36:20] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:36:20] [info] [serialsUsersCtrl.go:33] Getting serials_users by user id and serial id from the database
+[2024-06-06 17:36:20] [info] [serialsUsersCtrl.go:37] Creating serials_users in the database
+[2024-06-06 17:36:25] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 17:36:26] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:36:26] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 17:36:26] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:26] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:26] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:26] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:26] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 17:36:26] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 17:36:26] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:26] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:26] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:26] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:26] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:26] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 17:36:26] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:36:26] [info] [serialsUsersCtrl.go:33] Getting serials_users by user id and serial id from the database
+[2024-06-06 17:36:26] [info] [serialsUsersCtrl.go:41] Updating serials_users in the database
+[2024-06-06 17:36:53] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 17:36:54] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:36:54] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 17:36:54] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:54] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:54] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:54] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:54] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:54] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:36:54] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 17:36:54] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 17:36:54] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:54] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:54] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:54] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:54] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:36:54] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 17:36:54] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:36:54] [info] [serialsUsersCtrl.go:33] Getting serials_users by user id and serial id from the database
+[2024-06-06 17:36:54] [info] [serialsUsersCtrl.go:41] Updating serials_users in the database
+[2024-06-06 17:37:43] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:37:43] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 17:37:43] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:37:43] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:37:43] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:37:43] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:37:43] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:37:43] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:37:43] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 17:37:43] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 17:37:43] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:37:43] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:37:43] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:37:43] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:37:43] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:37:43] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 17:37:43] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:37:43] [info] [serialsUsersCtrl.go:33] Getting serials_users by user id and serial id from the database
+[2024-06-06 17:37:43] [info] [serialsUsersCtrl.go:41] Updating serials_users in the database
+[2024-06-06 17:37:45] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 17:37:46] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:37:46] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 17:37:46] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:37:46] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:37:46] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:37:46] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:37:46] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 17:37:46] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 17:37:46] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:37:46] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:37:46] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:37:46] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:37:46] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:37:46] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 17:37:46] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:37:46] [info] [serialsUsersCtrl.go:33] Getting serials_users by user id and serial id from the database
+[2024-06-06 17:37:46] [info] [serialsUsersCtrl.go:41] Updating serials_users in the database
+[2024-06-06 17:37:52] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 17:37:53] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:37:55] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 17:37:55] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:37:55] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:37:55] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 17:37:55] [info] [serialsCtrl.go:54] [0xc0002e7680] <nil>
+[2024-06-06 17:39:54] [info] [main.go:24] Logger initialized
+[2024-06-06 17:39:58] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 17:39:58] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:39:58] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:39:58] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 17:39:59] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:39:59] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 17:39:59] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:39:59] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:39:59] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:39:59] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:39:59] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:39:59] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:39:59] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 17:39:59] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 17:39:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:39:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:39:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:39:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:39:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:39:59] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 17:39:59] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:39:59] [info] [serialsUsersCtrl.go:33] Getting serials_users by user id and serial id from the database
+[2024-06-06 17:39:59] [info] [serialsUsersCtrl.go:41] Updating serials_users in the database
+[2024-06-06 17:40:25] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 17:40:25] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:40:25] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:40:25] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 17:40:54] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 17:40:54] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:40:54] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:40:54] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 17:41:01] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:41:01] [info] [serialsFavouritesCtrl.go:45] Deleting serials_favourites from the database
+[2024-06-06 17:41:01] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 17:41:01] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:41:01] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 17:41:09] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:41:16] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 17:41:53] [info] [usersCtrl.go:28] Checking user by login from the database
+[2024-06-06 17:41:53] [info] [usersRepo.go:111] Getting user by login from the database
+[2024-06-06 17:41:53] [info] [usersCtrl.go:31] Creating favourite in the database
+[2024-06-06 17:41:53] [info] [usersCtrl.go:36] Creating user in the database
+[2024-06-06 17:41:53] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 17:42:18] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 17:42:23] [info] [usersCtrl.go:64] Getting user by login from the database
+[2024-06-06 17:42:30] [info] [usersCtrl.go:20] Getting all users from the database
+[2024-06-06 17:42:43] [info] [usersCtrl.go:20] Getting all users from the database
+[2024-06-06 17:42:51] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 17:42:53] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:42:53] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 17:42:53] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:42:53] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:42:53] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:42:53] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:42:53] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 17:42:53] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 17:42:53] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:42:53] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:42:53] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:42:53] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:42:53] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:42:53] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 17:42:54] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 17:42:54] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 17:42:54] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:42:54] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:42:54] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:42:54] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 17:42:54] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 17:42:54] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 17:42:54] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:42:54] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:42:54] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:42:54] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:42:54] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 17:42:54] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 20:14:33] [info] [main.go:24] Logger initialized
+[2024-06-06 20:14:38] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 20:14:43] [info] [usersCtrl.go:64] Getting user by login from the database
+[2024-06-06 20:14:43] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 20:14:46] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 20:14:46] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 20:14:46] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 20:14:50] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 20:14:50] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 20:14:50] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 20:14:50] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 20:14:50] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 20:14:50] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 20:14:50] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 20:14:50] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 20:14:50] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 20:14:50] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 20:14:50] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:14:50] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:14:50] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:14:50] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:14:50] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:14:50] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 20:14:50] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 20:14:50] [info] [serialsUsersCtrl.go:33] Getting serials_users by user id and serial id from the database
+[2024-06-06 20:14:50] [info] [serialsUsersCtrl.go:41] Updating serials_users in the database
+[2024-06-06 20:14:57] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 20:14:59] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 20:14:59] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 20:14:59] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 20:14:59] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 20:14:59] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 20:14:59] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 20:14:59] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 20:14:59] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 20:14:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:14:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:14:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:14:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:14:59] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:14:59] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 20:14:59] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 20:14:59] [info] [serialsUsersCtrl.go:33] Getting serials_users by user id and serial id from the database
+[2024-06-06 20:14:59] [info] [serialsUsersCtrl.go:41] Updating serials_users in the database
+[2024-06-06 20:15:00] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 20:15:00] [info] [favouritesCtrl.go:21] Getting favourite by id from the database
+[2024-06-06 20:15:00] [info] [serialsFavouritesCtrl.go:41] Checking serial in favourite
+[2024-06-06 20:15:00] [info] [logger.go:317] <nil> [] true
+[2024-06-06 20:15:00] [info] [serialsFavouritesCtrl.go:33] Creating serials_favourites in the database
+[2024-06-06 20:15:00] [info] [favouritesCtrl.go:25] Updating favourite in the database
+[2024-06-06 20:15:00] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 20:15:00] [info] [seasonsCtrl.go:25] Getting seasons by serial id from the database
+[2024-06-06 20:15:00] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 20:15:00] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 20:15:00] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 20:15:00] [info] [episodesCtrl.go:25] Getting episodes by season id from the database
+[2024-06-06 20:15:00] [info] [commentsCtrl.go:25] Getting comments by serial from the database
+[2024-06-06 20:15:00] [info] [serialsActorsCtrl.go:25] Getting actors by serial id from the database
+[2024-06-06 20:15:00] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:15:00] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:15:00] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:15:00] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:15:00] [info] [actorsCtrl.go:21] Getting actor by id from the database
+[2024-06-06 20:15:00] [info] [producersCtrl.go:21] Getting producer by id from the database
+[2024-06-06 20:15:00] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 20:15:00] [info] [serialsUsersCtrl.go:33] Getting serials_users by user id and serial id from the database
+[2024-06-06 20:15:00] [info] [serialsUsersCtrl.go:41] Updating serials_users in the database
+[2024-06-06 20:15:02] [info] [serialsCtrl.go:18] Getting all serials from the database
+[2024-06-06 20:15:03] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 20:15:05] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 20:15:05] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 20:15:05] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 20:15:05] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 20:15:14] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 20:15:14] [info] [serialsFavouritesCtrl.go:45] Deleting serials_favourites from the database
+[2024-06-06 20:15:14] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 20:15:14] [info] [serialsCtrl.go:22] Getting serial by id from the database
+[2024-06-06 20:15:14] [info] [serialsCtrl.go:54] Getting weekend serials
+[2024-06-06 20:15:16] [info] [usersCtrl.go:24] Getting user by id from the database
+[2024-06-06 20:15:16] [info] [serialsFavouritesCtrl.go:45] Deleting serials_favourites from the database
+[2024-06-06 20:15:16] [info] [serialsFavouritesCtrl.go:21] Getting serials_favourites by favourite id from the database
+[2024-06-06 20:15:16] [info] [serialsCtrl.go:54] Getting weekend serials

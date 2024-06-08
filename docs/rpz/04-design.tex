@@ -1,0 +1,259 @@
+\chapter{Конструкторский раздел}
+
+В данном разделе будут описаны сущности, ролевая модель и хранимая функция проектируемой базы данных.
+Будет представлена диаграмма базы данных, а также описаны проектируемые ограничения целостности.
+
+\section{Описание сущностей проектируемой базы данных}
+
+На основании ER-диаграммы, представленной на рисунке~\ref{img:er}, проектируемая база данных должна содержать следующие таблицы:
+\begin{itemize}[label=---]
+    \item serials: таблица сериалов;
+    \item actors: таблица актеров;
+    \item producers: таблица режиссеров;
+    \item seasons: таблица сезонов;
+    \item episodes: таблица серий;
+    \item users: таблица пользователей;
+    \item favourites: таблица избранного;
+    \item comments: таблица комментариев;
+    \item serials\_users: таблица просмотренных пользователем сериалов;
+    \item serials\_actors: таблица актеров, учавствующих в сериале;
+    \item serials\_favourites: таблица сериалов в избранном.
+\end{itemize}
+
+На рисунке~\ref{img:db-diagram} представлена диаграмма проектируемой базы данных в нотации Мартина.
+
+\includeimage
+    {db-diagram}
+    {f}
+    {H}
+    {0.9\textwidth}
+    {Диаграмма базы данных}
+
+В таблицах~\ref{tbl:serials}~--~\ref{tbl:sf} представлены имена столбцов каждой таблиц и описаны ограничения целостности.
+Поля всех таблиц не могут быть пустыми.
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Таблица serials}
+        \label{tbl:serials}
+        \begin{tabular}{|l|c|c|}
+            \hline
+            Имя столбца & Описание & Ограничение \\ \hline
+            s\_id & \makecell{уникальный иденти-\\фикатор сериала} & является уникальным \\ \hline
+            s\_idProducer & \makecell{идентификатор\\режиссера сериала} & --- \\ \hline
+            s\_name & название сериала & --- \\ \hline
+            s\_description & описание сериала & --- \\ \hline
+            s\_year & год выхода сериала & \makecell{целое число,\\большее 1800} \\ \hline
+            s\_genre & жанр сериала & --- \\ \hline
+            s\_rating & рейтинг сериала & вещественное число от 0 до 10 \\ \hline
+            s\_seasons & \makecell{количество сезонов\\в сериале} & целое число, большее 0 \\ \hline
+            s\_state & статус сериала & \makecell{принимает 2 возможных значения:\\<<завершен>>, <<продолжается>>}\\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Таблица actors}
+        \label{tbl:actors}
+        \begin{tabular}{|l|c|c|}
+            \hline
+            Имя столбца & Описание & Ограничение \\ \hline
+            a\_id & \makecell{уникальный иденти-\\фикатор актера} & является уникальным \\ \hline
+            a\_name & имя актера & --- \\ \hline
+            a\_surname & фамилия актера & --- \\ \hline
+            a\_gender & пол актера & \makecell{принимает 2 возможных значения:\\<<мужской>>, <<женский>>} \\ \hline
+            a\_bdate & дата рождения актера & --- \\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Таблица producers}
+        \label{tbl:producers}
+        \begin{tabular}{|l|c|c|}
+            \hline
+            Имя столбца & Описание & Ограничение \\ \hline
+            p\_id & \makecell{уникальный иденти-\\фикатор режиссера} & является уникальным \\ \hline
+            p\_name & имя режиссера & --- \\ \hline
+            p\_surname & фамилия режиссера & --- \\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Таблица seasons}
+        \label{tbl:seasons}
+        \begin{tabular}{|l|c|c|}
+            \hline
+            Имя столбца & Описание & Ограничение \\ \hline
+            ss\_id & \makecell{уникальный иденти-\\фикатор сезона} & является уникальным \\ \hline
+            ss\_idSerial & идентификатор сериала & ---\\ \hline
+            ss\_name & название сезона & ---\\ \hline
+            ss\_num & номер сезона & целое число, большее 0\\ \hline
+            ss\_cntEpisodes & \makecell{количество эпизодов\\в сезоне} & целое число, не меньшее 0\\ \hline
+            ss\_date & дата выхода сезона & ---\\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Таблица episodes}
+        \label{tbl:episodes}
+        \begin{tabular}{|l|c|c|}
+            \hline
+            Имя столбца & Описание & Ограничение \\ \hline
+            e\_id & уникальный идентификатор серии & является уникальным \\ \hline
+            e\_idSeason & идентификатор сезона & ---\\ \hline
+            e\_name & название серии & ---\\ \hline
+            e\_num & номер серии & целое число, большее 0\\ \hline
+            e\_duration & продолжительность серии & ---\\ \hline
+            e\_date & дата выхода серии & ---\\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Таблица users}
+        \label{tbl:users}
+        \begin{tabular}{|l|c|c|}
+            \hline
+            Имя столбца & Описание & Ограничение \\ \hline
+            u\_id & \makecell{уникальный иденти-\\фикатор пользователя} & является уникальным\\ \hline
+            u\_idFavourites & \makecell{идентификатор\\избранного} & ---\\ \hline
+            u\_login & логин пользователя & ---\\ \hline
+            u\_password & \makecell{хеш пароля\\пользователя} & ---\\ \hline
+            u\_role & роль пользователя & \makecell{принимает 2 возможных\\значения: <<user>>, <<admin>>}\\ \hline
+            u\_name & имя пользователя & ---\\ \hline
+            u\_surname & фамилия пользователя & ---\\ \hline
+            u\_gender & пол пользователя & \makecell{принимает 2 возможных\\значения: <<мужской>>,\\<<женский>>}\\ \hline
+            u\_date & \makecell{дата рождения\\пользователя} & ---\\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Таблица favourites}
+        \label{tbl:favourites}
+        \begin{tabular}{|l|c|c|}
+            \hline
+            Имя столбца & Описание & Ограничение \\ \hline
+            f\_id & \makecell{уникальный иденти-\\фикатор избранного} & является уникальным\\ \hline
+            f\_cntSerials & \makecell{количество сериалов\\в избранном} & целое число, не меньшее 0\\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Таблица comments}
+        \label{tbl:comments}
+        \begin{tabular}{|l|c|c|}
+            \hline
+            Имя столбца & Описание & Ограничение \\ \hline
+            c\_id & \makecell{уникальный иденти-\\фикатор комментария} & является уникальным\\ \hline
+            c\_idUser & идентификатор пользователя & ---\\ \hline
+            c\_text & текст комментария & ---\\ \hline
+            c\_date & дата оставления комментария & ---\\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Таблица serials\_users}
+        \label{tbl:su}
+        \begin{tabular}{|l|c|c|}
+            \hline
+            Имя столбца & Описание & Ограничение \\ \hline
+            su\_id & \makecell{уникальный иденти-\\фикатор сериалов, просмотренных\\пользователем} & является уникальным\\ \hline
+            su\_idSerial & идентификатор сериала & ---\\ \hline
+            su\_idUser & идентификатор пользователя & ---\\ \hline
+            su\_lastSeen & дата последнего просмотра & ---\\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Таблица serials\_actors}
+        \label{tbl:sa}
+        \begin{tabular}{|l|c|c|}
+            \hline
+            Имя столбца & Описание & Ограничение \\ \hline
+            sa\_id & \makecell{уникальный иденти-\\фикатор актеров, учавствующих\\в сериале} & является уникальным\\ \hline
+            sa\_idSerial & идентификатор сериала & ---\\ \hline
+            sa\_idActor & идентификатор актера & ---\\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Таблица serials\_favourites}
+        \label{tbl:sf}
+        \begin{tabular}{|l|c|c|}
+            \hline
+            Имя столбца & Описание & Ограничение \\ \hline
+            sf\_id & \makecell{уникальный иденти-\\фикатор сериалов в избранном} & является уникальным\\ \hline
+            sf\_idSerial & идентификатор сериала & ---\\ \hline
+            sf\_idFavourites & идентификатор избранного & ---\\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+
+\section{Описание проектируемой ролевой модели}
+
+В предыдущем разделе были выделены 3 роли: гость (неавторизованный пользователь), авторизованный пользователь, администратор.
+В таблице~\ref{tbl:roles} описаны возможности каждой роли. Введены следующие обозначения: C --- CREATE, R --- READ, U --- UPDATE, D --- DELETE.
+
+\begin{table}[H]
+    \begin{center}
+        \caption{Возможности ролей}
+        \label{tbl:roles}
+        \begin{tabular}{|c|c|c|c|}
+            \hline
+            \multirow{2}{*}{Таблица} & \multicolumn{3}{c|}{Роль} \\ \cline{2-4}
+                                    & \makecell{Гость} 
+                                    & \makecell{Авторизованный\\пользователь}
+                                    & \makecell{Администратор}
+            \\ \hline
+            serials & R & R & C, R, U, D\\ \hline
+            actors & R & R & C, R, U, D\\ \hline
+            producers & R & R & C, R, U, D\\ \hline
+            seasons & R & R & C, R, U, D\\ \hline
+            episodes & R & R & C, R, U, D\\ \hline
+            users & C & R, U, D & R, U, D\\ \hline
+            favourites & - & R, U, D & R, U, D\\ \hline
+            comments & - & C, R, U, D & R\\ \hline
+            serials\_users & - & C, R, D & -\\ \hline
+            serials\_actors & - & - & C, R, U, D\\ \hline
+            serials\_favourites & - & C, R, D & -\\ \hline
+        \end{tabular}
+    \end{center}
+\end{table}
+
+\section{Описание проектируемой хранимой функции}
+
+В аналитическом разделе одним действий пользователя была возможность посмотреть сериалы из избранного, которые можно посмотреть за выходные.
+Для реализации данного функционала было принято решение спроектировать функцию.
+
+На рисунке~\ref{img:funcScheme} представлена схема алгоритма поиска сериалов из избранного, которые можно посмотреть за выходные.
+
+\includeimage
+    {funcScheme}
+    {f}
+    {H}
+    {0.9\textwidth}
+    {Схема алгоритма поиска сериалов из избранного, которые можно посмотреть за выходные}
+
+\section{Вывод}
+
+В данном разделе были описаны сущности, ролевая модель и хранимая функция проектируемой базы данных.
+Была представлена диаграмма базы данных, а также описаны проектируемые ограничения целостности.

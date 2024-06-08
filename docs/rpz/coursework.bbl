@@ -1,0 +1,426 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{intro-serials}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Левада-Центр : Досуг и развлечения [Электронный ресурс]}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.levada.ru/2019/07/01/dosug-i-razvlecheniya/
+      \endverb
+      \verb{url}
+      \verb https://www.levada.ru/2019/07/01/dosug-i-razvlecheniya/
+      \endverb
+    \endentry
+    \entry{myshows}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Рейтинг сериалов: список сериалов на MyShows.me [Электронный ресурс]}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://myshows.me/
+      \endverb
+      \verb{url}
+      \verb https://myshows.me/
+      \endverb
+    \endentry
+    \entry{shikimori}{misc}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Шикимори - энциклопедия аниме и манги [Электронный ресурс]}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://shikimori.one/
+      \endverb
+      \verb{url}
+      \verb https://shikimori.one/
+      \endverb
+    \endentry
+    \entry{tvguru}{misc}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{TVGuru – новости сериалов, сенсации, трейлеры и обзоры новинок [Электронный ресурс]}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://tvguru.ru/
+      \endverb
+      \verb{url}
+      \verb https://tvguru.ru/
+      \endverb
+    \endentry
+    \entry{kinorium}{misc}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Кинориум [Электронный ресурс]}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ru.kinorium.com/
+      \endverb
+      \verb{url}
+      \verb https://ru.kinorium.com/
+      \endverb
+    \endentry
+    \entry{model-def}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4c5f2eb088cb73066f5363fda80183b0}{%
+           family={Карпова},
+           familyi={К\bibinitperiod},
+           given={Ирина\bibnamedelima Петровна},
+           giveni={И\bibinitperiod\bibinitdelim П\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {" Издательский дом"" Питер"""}%
+      }
+      \strng{namehash}{4c5f2eb088cb73066f5363fda80183b0}
+      \strng{fullhash}{4c5f2eb088cb73066f5363fda80183b0}
+      \strng{bibnamehash}{4c5f2eb088cb73066f5363fda80183b0}
+      \strng{authorbibnamehash}{4c5f2eb088cb73066f5363fda80183b0}
+      \strng{authornamehash}{4c5f2eb088cb73066f5363fda80183b0}
+      \strng{authorfullhash}{4c5f2eb088cb73066f5363fda80183b0}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Базы данных. Учебное пособие}
+      \field{year}{2021}
+    \endentry
+    \entry{db-models}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4bb10c7c7b18eac345cf279a3ce52d3b}{%
+           family={Гущин},
+           familyi={Г\bibinitperiod},
+           given={Александр\bibnamedelima Николаевич},
+           giveni={А\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Directmedia}%
+      }
+      \strng{namehash}{4bb10c7c7b18eac345cf279a3ce52d3b}
+      \strng{fullhash}{4bb10c7c7b18eac345cf279a3ce52d3b}
+      \strng{bibnamehash}{4bb10c7c7b18eac345cf279a3ce52d3b}
+      \strng{authorbibnamehash}{4bb10c7c7b18eac345cf279a3ce52d3b}
+      \strng{authornamehash}{4bb10c7c7b18eac345cf279a3ce52d3b}
+      \strng{authorfullhash}{4bb10c7c7b18eac345cf279a3ce52d3b}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Базы данных}
+      \field{year}{2015}
+    \endentry
+    \entry{hierarchical}{misc}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{Иерархическая модель данных [Электронный ресурс]}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dit.isuct.ru/IVT/BOOKS/DBMS/DBMS14/ch_3_1.html
+      \endverb
+      \verb{url}
+      \verb https://dit.isuct.ru/IVT/BOOKS/DBMS/DBMS14/ch_3_1.html
+      \endverb
+    \endentry
+    \entry{network}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Сетевая модель данных [Электронный ресурс]}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dit.isuct.ru/IVT/BOOKS/DBMS/DBMS14/ch_3_2.html
+      \endverb
+      \verb{url}
+      \verb https://dit.isuct.ru/IVT/BOOKS/DBMS/DBMS14/ch_3_2.html
+      \endverb
+    \endentry
+    \entry{rel-properties}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Организация данных в реляционной модели [Электронный ресурс]}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dit.isuct.ru/IVT/BOOKS/DBMS/DBMS14/ch_4_1.html
+      \endverb
+      \verb{url}
+      \verb https://dit.isuct.ru/IVT/BOOKS/DBMS/DBMS14/ch_4_1.html
+      \endverb
+    \endentry
+    \entry{rel-restricts}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Ограничения целостности в реляционной модели данных [Электронный ресурс]}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dit.isuct.ru/IVT/BOOKS/DBMS/DBMS14/ch_4_3.html
+      \endverb
+      \verb{url}
+      \verb https://dit.isuct.ru/IVT/BOOKS/DBMS/DBMS14/ch_4_3.html
+      \endverb
+    \endentry
+    \entry{OOM}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Объектно-ориентированные СУБД [Электронный ресурс]}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dit.isuct.ru/IVT/BOOKS/DBMS/DBMS14/ch_6_3.html
+      \endverb
+      \verb{url}
+      \verb https://dit.isuct.ru/IVT/BOOKS/DBMS/DBMS14/ch_6_3.html
+      \endverb
+    \endentry
+    \entry{popular-subd}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Ranking of the most popular database management systems worldwide, as of February 2023 [Электронный ресурс]}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.statista.com/statistics/809750/worldwide-popularity-ranking-database-management-systems/
+      \endverb
+      \verb{url}
+      \verb https://www.statista.com/statistics/809750/worldwide-popularity-ranking-database-management-systems/
+      \endverb
+    \endentry
+    \entry{oracle}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Oracle database [Электронный ресурс]}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.oracle.com/database/
+      \endverb
+      \verb{url}
+      \verb https://www.oracle.com/database/
+      \endverb
+    \endentry
+    \entry{mysql}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{MySQL [Электронный ресурс]}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mysql.com/
+      \endverb
+      \verb{url}
+      \verb https://www.mysql.com/
+      \endverb
+    \endentry
+    \entry{mss}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{SQL Server 2022 [Электронный ресурс]}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.microsoft.com/ru-ru/sql-server/sql-server-2022
+      \endverb
+      \verb{url}
+      \verb https://www.microsoft.com/ru-ru/sql-server/sql-server-2022
+      \endverb
+    \endentry
+    \entry{postgres}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{PostgreSQL: Documentation [Электронный ресурс]}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.postgresql.org/docs/
+      \endverb
+      \verb{url}
+      \verb https://www.postgresql.org/docs/
+      \endverb
+    \endentry
+    \entry{proizv}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Oracle, MySQL, PostgreSQL, SQLite, SQL Server: Performance based competitive analysis [Электронный ресурс]}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://dspace.daffodilvarsity.edu.bd:8080/handle/123456789/4437
+      \endverb
+      \verb{url}
+      \verb http://dspace.daffodilvarsity.edu.bd:8080/handle/123456789/4437
+      \endverb
+    \endentry
+    \entry{golang}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{The Go Programming Language [Электронный ресурс]}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://go.dev/
+      \endverb
+      \verb{url}
+      \verb https://go.dev/
+      \endverb
+    \endentry
+    \entry{html}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{HTML Documentation [Электронный ресурс]}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://html-doc.vercel.app/
+      \endverb
+      \verb{url}
+      \verb https://html-doc.vercel.app/
+      \endverb
+    \endentry
+    \entry{plpgsql}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{PostgreSQL: Documentation: 16: Chapter 43. PL/pgSQL — SQL Procedural Language [Электронный ресурс]}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.postgresql.org/docs/current/plpgsql.html
+      \endverb
+      \verb{url}
+      \verb https://www.postgresql.org/docs/current/plpgsql.html
+      \endverb
+    \endentry
+    \entry{docker}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Docker: Accelerated Container Application Development [Электронный ресурс]}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.docker.com/
+      \endverb
+      \verb{url}
+      \verb https://www.docker.com/
+      \endverb
+    \endentry
+    \entry{vscode}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Visual Studio Code - Code Editing. Redefined [Электронный ресурс]}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://code.visualstudio.com/
+      \endverb
+      \verb{url}
+      \verb https://code.visualstudio.com/
+      \endverb
+    \endentry
+    \entry{explain}{misc}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{PostgreSQL: Documentation: 16: EXPLAIN [Электронный ресурс]}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.postgresql.org/docs/current/sql-explain.html
+      \endverb
+      \verb{url}
+      \verb https://www.postgresql.org/docs/current/sql-explain.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
